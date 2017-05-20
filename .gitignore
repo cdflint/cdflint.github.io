@@ -50,3 +50,4 @@ node_modules/
 old-code/
 npm-debug.log
 *.qgs
+webpack.config.js
