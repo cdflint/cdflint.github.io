@@ -48,6 +48,7 @@ Temporary Items
 config/
 node_modules/
 old-code/
+src/*
 npm-debug.log
 *.qgs
 webpack.config.js
