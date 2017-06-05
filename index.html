@@ -7,20 +7,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
   <meta name="mobile-web-app-capable" content="yes">
+  <link rel="shortcut icon" type="image/x-icon" href="public/img/favicon.ico">
   <title>Carl Flint</title>
   <!-- Output stylesheet from webpack config -->
-  <!-- {{#contentFor 'customCSS'}} -->
   <link rel="stylesheet" type="text/css" href="public/build/home-style.css">
-  <!-- <link rel="stylesheet" type="text/css" href="build/vendor-style.css"> -->
-  <!-- {{/contentFor}} -->
 </head>
 <body>
   <div id="wrapper"></div>
   <!-- single page app in bundle.js -->
-  <!-- {{#contentFor 'scripts'}} -->
   <script type="text/javascript" src="public/build/vendor-bundle.js"></script>
   <script type="text/javascript" src="public/build/home-bundle.js"></script>
-  <!-- {{/contentFor}} -->
 </body>
 
 </html>
