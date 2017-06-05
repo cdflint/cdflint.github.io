@@ -9,18 +9,18 @@
   <meta name="mobile-web-app-capable" content="yes">
   <title>{{title}}</title>
   <!-- Output stylesheet from webpack config -->
-  {{#contentFor 'customCSS'}}
+  <!-- {{#contentFor 'customCSS'}} -->
   <link rel="stylesheet" type="text/css" href="build/home-style.css">
   <!-- <link rel="stylesheet" type="text/css" href="build/vendor-style.css"> -->
-  {{/contentFor}}
+  <!-- {{/contentFor}} -->
 </head>
 <body>
   <div id="wrapper"></div>
   <!-- single page app in bundle.js -->
-  {{#contentFor 'scripts'}}
+  <!-- {{#contentFor 'scripts'}} -->
   <script type="text/javascript" src="build/vendor-bundle.js"></script>
   <script type="text/javascript" src="build/home-bundle.js"></script>
-  {{/contentFor}}
+  <!-- {{/contentFor}} -->
 </body>
 
 </html>
