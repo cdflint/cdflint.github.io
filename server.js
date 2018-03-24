@@ -1,5 +1,5 @@
 'use strict';
-//this line allows using ES6 in nodejs code
+//enable ES6 
 require("babel-register");
 
 let app = require('./app'),

@@ -11,10 +11,18 @@
   <title>Carl Flint</title>
   <!-- Output stylesheet from webpack config -->
   <link rel="stylesheet" type="text/css" href="public/build/home-style.css">
+  <!--Google analytics-->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116312395-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-116312395-2');
+  </script>
 </head>
 <body>
   <div id="wrapper"></div>
-  
+
   <!-- single page app in bundle.js -->
   <script type="text/javascript" src="public/build/vendor-bundle.js"></script>
   <script type="text/javascript" src="public/build/home-bundle.js"></script>
