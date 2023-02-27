@@ -20,7 +20,7 @@
     "esri-leaflet-geocoder": "^2.2.12",
     "esri-leaflet-gp": "^2.0.3",
     "express": "~4.14.0",
-    "express-hbs": "^1.0.4",
+    "express-hbs": "^2.4.0",
     "font-awesome": "^4.7.0",
     "google-map-react": "^0.24.0",
     "hoek": "~4.2.1",
