@@ -15,7 +15,7 @@
     "body-parser": "~1.15.2",
     "bootstrap": "^3.3.7",
     "cookie-parser": "~1.4.3",
-    "debug": "~2.2.0",
+    "debug": "~2.6.9",
     "esri-leaflet": "^2.1.4",
     "esri-leaflet-geocoder": "^2.2.12",
     "esri-leaflet-gp": "^2.0.3",
