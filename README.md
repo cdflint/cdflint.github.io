@@ -9,6 +9,3 @@ https://github.com/developmentseed
 https://github.com/developmentseed/missingmaps.github.io
 
 -->
-![Carl's Public Repo Stats](https://github-readme-stats.vercel.app/api?username=cdflint&show_icons=true&hide=html&theme=gruvbox)
-
-![Carl's Public Repo Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=cdflint&show_icons=true&hide=html&theme=gruvbox)
