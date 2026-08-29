@@ -9,8 +9,6 @@
   <meta name="mobile-web-app-capable" content="yes">
   <link rel="shortcut icon" type="image/x-icon" href="public/img/favicon.ico">
   <title>Carl Flint</title>
-  <!-- Output stylesheet from webpack config -->
-  <link rel="stylesheet" type="text/css" href="public/build/home-style.css">
   <!--Google analytics-->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116312395-2"></script>
   <script>
@@ -19,13 +17,14 @@
     gtag('js', new Date());
     gtag('config', 'UA-116312395-2');
   </script>
+  <script type="module" crossorigin src="public/assets/index-B1wWQsls.js"></script>
+  <link rel="stylesheet" crossorigin href="public/assets/index-Dri8Pkd3.css">
 </head>
 <body>
   <div id="wrapper"></div>
 
-  <!-- single page app in bundle.js -->
-  <script type="text/javascript" src="public/build/vendor-bundle.js"></script>
-  <script type="text/javascript" src="public/build/home-bundle.js"></script>
+  <!-- single page app, bundled and minified by Vite -->
 </body>
 
 </html>
+
